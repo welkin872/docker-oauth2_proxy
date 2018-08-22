@@ -48,6 +48,7 @@ if [ "$1" = 'oauth2_proxy' ]; then
             http-address
             https-address
             login-url
+            oidc-issuer-url
             pass-access-token
             pass-basic-auth
             pass-host-header
