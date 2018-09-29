@@ -61,6 +61,7 @@ if [ "$1" = 'oauth2_proxy' ]; then
             resource
             request-logging
             scope
+            set-authorization-header
             signature-key
             skip-auth-regex
             skip-auth-preflight
