@@ -6,7 +6,7 @@ RUN addgroup oauth2_proxy && adduser -G oauth2_proxy  -D -H oauth2_proxy
 # su/sudo with proper signaling inside docker
 RUN apk add --no-cache su-exec
 
-ENV OAUTH2_PROXY_VERSION="2.2.1-alpha.180928"
+ENV OAUTH2_PROXY_VERSION="2.2.1-alpha.180929"
 
 # install zeppelin
 RUN set -xe \
